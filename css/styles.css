@@ -1,0 +1,100 @@
+img {
+  width: 90%;
+  height: 90%;
+}
+
+.carousel-item {
+  padding: 3% 5%;
+}
+
+.picture {
+  padding: 2px;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The expanding image container (positioning is needed to position the close button and the text) */
+.container {
+  position: relative;
+  display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+/* Closable button inside the image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+.enlarge {
+  position: absolute;
+  position: fixed;
+  top: 25%;
+  left: 25%;
+  /* WARN */
+  height: 80%;
+  width: auto;
+  align: center;
+}
+
+.pics {
+  border: 5px solid;
+  border-color: #aaa9ad;
+  border-width: medium;
+}
+
+.middle {
+
+  font-size-adjust: 0.4;
+  transition: .5s ease;
+  position: absolute;
+  top:90%;
+  left: 10%;
+  z-index: 2;
+  text-align: center;
+  color: red;
+}
+
+.pic-msg:hover .pics {
+  opacity: 0.3;
+}
+
+.pic-msg:hover .middle {
+  opacity: 1;
+}

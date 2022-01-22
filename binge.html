@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+  <title>Binge</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="nofollow" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+
+  <!--   -->
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+  <!--   -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <script src="https://kit.fontawesome.com/4dca7e4e82.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Ubuntu&display=swap" rel="stylesheet">
+
+<!--  icons  -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="css/styles.css">
+  <!--<script type="text/javascript" src="javaEJ\script.js"></script> -->
+
+
+  <script>
+    function myFunction(imgs) {
+      var expandImg = document.getElementById("expandedImg");
+      var imgText = document.getElementById("imgtext");
+      expandImg.src = imgs.src;
+      imgText.innerHTML = imgs.alt;
+      expandImg.parentElement.style.display = "block";
+    }
+  </script>
+
+</head>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+
+  <div class="collapse navbar-collapse" id="navbarNavDropdown" style="color:white;">
+    <ul class="navbar-nav">
+
+
+
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Heeeelo
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="index.html">Home</a>
+          <a class="dropdown-item" href="metameme.html">MeMeta</a>
+          <a class="dropdown-item" href="ss.html">Chats</a>
+          <a class="dropdown-item" href="thischuti.html">Break</a>
+          <a class="dropdown-item" href="art.html">Art</a>
+          <a class="dropdown-item" href="zoo.html">Zoo</a>
+
+        </div>
+      </li>
+
+    </ul>
+  </div>
+</nav>
+
+<body style="background-color: black;">
+  <div class="heads" style=" margin-top:5%; margin-left:10%; margin-right:10%; align:center;">
+    <h1 style="text-align:center; color: #f5e050;">Sasta Show</h1>
+    <br>
+    <img src="images\_minions_1.jpg" alt="" style="width:50%; height:auto; margin-left:25%; ">
+  </div>
+
+
+  <br>
+  <div class="pictures" style="margin-left:10%; margin-right:10%; align:center;">
+    <div class="container-fluid" style="background-color:black;">
+      <div class="row">
+        <div class="col-lg-4 ">
+          <div id="binge" class="carousel slide" data-ride="false">
+            <div class="carousel-inner">
+
+              <div class="carousel-item active">
+                <img src="images\khana.jpg" alt="Nature" onclick="myFunction(this);" class="pics">
+              </div>
+
+              <div class="carousel-item">
+              <img src="images\meme chat 1serie1.png" alt="Nature" onclick="myFunction(this);" class="pics">
+              </div>
+              <div class="carousel-item">
+              <img src="images\meme chat 1serie2.png" alt="Nature" onclick="myFunction(this);" class="pics">
+              </div>
+              <div class="carousel-item">
+              <img src="images\meme chat 1serie3.png" alt="Nature" onclick="myFunction(this);" class="pics">
+              </div>
+              <div class="carousel-item">
+              <img src="images\meme chat 1serie4.png" alt="Nature" onclick="myFunction(this);" class="pics">
+              </div>
+              <div class="carousel-item "  style=" background-color: black; text-align:center; color: white;">
+                <p>ab koi kuch kehna chahega </p>
+                <p>"ghar pe bane hue gulab jamun"</p>
+                <p>Rona ni(ro lo )</p>
+                <p>Ahm</p>
+                </div>
+
+
+            </div>
+            <a class="carousel-control-prev" href="#binge" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#binge" role="button" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          </div>
+
+
+        </div>
+
+
+        <div class="col-lg-4 ">
+          <div id="binge1" class="carousel slide" data-ride="false">
+            <div class="carousel-inner">
+
+              <div class="carousel-item active">
+                <img src="images\khana11.jpg" alt="Nature" onclick="myFunction(this);" class="pics">
+              </div>
+
+              <div class="carousel-item">
+              <img src="images\meme chat serie.jpg" alt="Nature" onclick="myFunction(this);" class="pics">
+              </div>
+              <div class="carousel-item">
+              <img src="images\meme chat serie2.jpg" alt="Nature" onclick="myFunction(this);" class="pics">
+              </div>
+
+              <div class="carousel-item "  style=" background-color: black; text-align:center; color: white;">
+                <p>chi chi chi chi</p>
+                <p>gandi baat</p>
+                <p>how can u just attach ur that to her </p>
+                <p>Ahm</p>
+                </div>
+
+
+            </div>
+            <a class="carousel-control-prev" href="#binge1" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#binge1" role="button" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          </div>
+          </div>
+
+
+          <div class="col-lg-4 ">
+            <div id="binge2" class="carousel slide" data-ride="false">
+              <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                  <img src="images\khana12.jpg" alt="Nature" onclick="myFunction(this);" class="pics">
+                </div>
+
+                <div class="carousel-item">
+                <img src="images\popcorn serie1.png" alt="Nature" onclick="myFunction(this);" class="pics">
+                </div>
+                <div class="carousel-item">
+                <img src="images\popcorn serie2.png" alt="Nature" onclick="myFunction(this);" class="pics">
+                </div>
+
+                <div class="carousel-item "  style=" background-color: black; text-align:center; color: white; margin-top:40%">
+                 <h2>MISS ME</h2>
+                 <p>now just imagine this in a horror font</p>
+                  </div>
+
+
+              </div>
+              <a class="carousel-control-prev" href="#binge2" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+              </a>
+              <a class="carousel-control-next" href="#binge2" role="button" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+              </a>
+            </div>
+
+
+        </div>
+
+
+        <div class="col-lg-4 ">
+          <div id="binge3" class="carousel slide" data-ride="false">
+            <div class="carousel-inner">
+
+              <div class="carousel-item active">
+                <img src="images\khana2.jpg" alt="Nature" onclick="myFunction(this);" class="pics">
+              </div>
+
+              <div class="carousel-item">
+              <img src="images\ss party.png" alt="Nature" onclick="myFunction(this);" class="pics">
+              </div>
+              <div class="carousel-item">
+              <img src="images\ss party1.png" alt="Nature" onclick="myFunction(this);" class="pics">
+              </div>
+              <div class="carousel-item">
+              <img src="images\ss party2.png" alt="Nature" onclick="myFunction(this);" class="pics">
+              </div>
+              <div class="carousel-item">
+              <img src="images\ss party3.png" alt="Nature" onclick="myFunction(this);" class="pics">
+              </div>
+              <div class="carousel-item">
+              <img src="images\ss party4.png" alt="Nature" onclick="myFunction(this);" class="pics">
+              </div>
+
+              <div class="carousel-item "  style=" background-color: black; text-align:center; color: white; margin-top:40%">
+
+               <p>please apna udhar utariye sir</p>
+               <p>yahan party ki sun sunke</p>
+               <p>bread se kaam chalana padhra h</p>
+               <p>ahm</p>
+                </div>
+
+
+            </div>
+            <a class="carousel-control-prev" href="#binge3" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#binge3" role="button" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          </div>
+
+
+      </div>
+
+
+
+      <div class="col-lg-4 ">
+        <div id="binge4" class="carousel slide" data-ride="false">
+          <div class="carousel-inner">
+
+            <div class="carousel-item active">
+              <img src="images\khana3.jpg" alt="Nature" onclick="myFunction(this);" class="pics">
+            </div>
+
+            <div class="carousel-item">
+            <img src="images3\abhi21.jpg" alt="Nature" onclick="myFunction(this);" class="pics">
+            </div>
+            <div class="carousel-item">
+            <img src="images3\abhi20.jpg" alt="Nature" onclick="myFunction(this);" class="pics">
+            </div>
+            <div class="carousel-item">
+            <img src="images3\abhi19.jpg" alt="Nature" onclick="myFunction(this);" class="pics">
+            </div>
+
+
+            <div class="carousel-item "  style=" background-color: black; text-align:center; color: white; margin-top:40%">
+
+             <p>1. Arey ye kon mast bandi h yr</p>
+             <p>2. hum dono kitne mast lagenge ek dusre k sath</p>
+             <p>3. muh pe reject kar gyi bhai</p>
+             <p>ahm</p>
+              </div>
+
+
+          </div>
+          <a class="carousel-control-prev" href="#binge4" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#binge4" role="button" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+        </div>
+
+
+      </div>
+
+
+      <div class="col-lg-4 ">
+        <div id="binge5" class="carousel slide" data-ride="false">
+          <div class="carousel-inner">
+
+            <div class="carousel-item active">
+              <img src="images\khana4.jpg" alt="Nature" onclick="myFunction(this);" class="pics">
+            </div>
+
+            <div class="carousel-item">
+            <img src="images\ss biryani.png" alt="Nature" onclick="myFunction(this);" class="pics">
+            </div>
+            <div class="carousel-item">
+            <img src="images\ss biryani2.png" alt="Nature" onclick="myFunction(this);" class="pics">
+            </div>
+            <div class="carousel-item">
+            <img src="images\ss biryani3.png" alt="Nature" onclick="myFunction(this);" class="pics">
+            </div>
+
+
+            <div class="carousel-item "  style=" background-color: black; text-align:center; color: white; margin-top:40%">
+
+             <h2>Actually naseeb ni hui</h2>
+              </div>
+
+
+          </div>
+          <a class="carousel-control-prev" href="#binge5" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#binge5" role="button" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+        </div>
+
+
+    </div>
+
+
+
+
+    <div class="col-lg-4 ">
+      <div id="binge6" class="carousel slide" data-ride="false">
+        <div class="carousel-inner">
+
+          <div class="carousel-item active">
+            <img src="images\khana8.jpg" alt="Nature" onclick="myFunction(this);" class="pics">
+          </div>
+
+          <div class="carousel-item">
+          <img src="images\thischuti serie1.png" alt="Nature" onclick="myFunction(this);" class="pics">
+          </div>
+          <div class="carousel-item">
+          <img src="images\thischuti serie2.png" alt="Nature" onclick="myFunction(this);" class="pics">
+          </div>
+          <div class="carousel-item">
+          <img src="images\khana5.jpg" alt="Nature" onclick="myFunction(this);" class="pics">
+          </div>
+
+
+          <div class="carousel-item "  style=" background-color: black; text-align:center; color: white; margin-top:40%">
+
+           <h1>Ahm</h1>
+            </div>
+
+
+        </div>
+        <a class="carousel-control-prev" href="#binge6" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#binge6" role="button" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+
+
+  </div>
+
+
+
+  <div class="col-lg-4 ">
+    <div id="binge7" class="carousel slide" data-ride="false">
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+          <img src="images\khana7.jpg" alt="Nature" onclick="myFunction(this);" class="pics">
+        </div>
+
+        <div class="carousel-item">
+        <img src="images3\abhi25.jpg" alt="Nature" onclick="myFunction(this);" class="pics">
+        </div>
+        <div class="carousel-item">
+        <img src="images3\abhi27.jpg" alt="Nature" onclick="myFunction(this);" class="pics">
+        </div>
+
+
+
+        <div class="carousel-item "  style=" background-color: black; text-align:center; color: white; margin-top:40%">
+
+         <h1>dhappa</h1>
+         <p>break the bread challenge</p>
+         <h4>gone wrong..</h4>
+          </div>
+
+
+      </div>
+      <a class="carousel-control-prev" href="#binge7" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#binge7" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+
+
+</div>
+
+
+
+<div class="col-lg-4 ">
+  <div id="binge8" class="carousel slide" data-ride="false">
+    <div class="carousel-inner">
+
+      <div class="carousel-item active">
+        <img src="images\khana9.jpg" alt="Nature" onclick="myFunction(this);" class="pics">
+      </div>
+
+      <div class="carousel-item">
+      <img src="images4\thischuti5-ghadi.jpg" alt="Nature" onclick="myFunction(this);" class="pics">
+      </div>
+      <div class="carousel-item">
+      <img src="images4\thischuti6-ghadi.jpg" alt="Nature" onclick="myFunction(this);" class="pics">
+      </div>
+      <div class="carousel-item">
+      <img src="images4\thischuti7-ghadi.jpg" alt="Nature" onclick="myFunction(this);" class="pics">
+      </div>
+      <div class="carousel-item">
+      <img src="images4\thischuti9-ghandi.jpg" alt="Nature" onclick="myFunction(this);" class="pics">
+      </div>
+
+      <div class="carousel-item "  style=" background-color: black; text-align:center; color: white; margin-top:40%">
+
+       <h1>Ahmmmmmmm</h1>
+       <p>when u have a showroom </p>
+       <p>u can get a watch to fit so much ahm</p>
+        </div>
+
+
+    </div>
+    <a class="carousel-control-prev" href="#binge8" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#binge8" role="button" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+  </div>
+
+
+</div>
+
+
+<div class="col-lg-4 ">
+  <div id="binge9" class="carousel slide" data-ride="false">
+    <div class="carousel-inner">
+
+      <div class="carousel-item active">
+        <img src="images\khana10.jpg" alt="Nature" onclick="myFunction(this);" class="pics">
+      </div>
+
+      <div class="carousel-item">
+      <img src="images\zoo-serie1.jpeg" alt="Nature" onclick="myFunction(this);" class="pics">
+      </div>
+      <div class="carousel-item">
+      <img src="images\zoo-serie2.jpeg" alt="Nature" onclick="myFunction(this);" class="pics">
+      </div>
+
+
+
+      <div class="carousel-item "  style=" background-color: black; text-align:center; color: white; margin-top:40%">
+
+       <p>kya mila os khazane mein apko..</p>
+       <p>hume bhi toh dekhne ka mauka milna chahiye ki ni</p>
+        </div>
+
+
+    </div>
+    <a class="carousel-control-prev" href="#binge9" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#binge9" role="button" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+  </div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <!--  <div class="col-lg-2 col-sm-6 "  style=" background-color: black; text-align:left
+        ; color: white;">
+          <p>haan haan</p>
+          <p>bilkul idea ni lagege</p>
+          <p>bhot chote nishan h</p>
+          <i class="fa fa-hand-o-left fa-2x"></i>
+        </div> -->
+
+
+
+      </div>
+    </div>
+    <div class="container enlarge" style="margin-left:10%; margin-right:10% align:center;">
+      <!-- Close the image -->
+      <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+      <!-- Expanded image -->
+      <img id="expandedImg" style="width:100%">
+
+      <!-- Image text -->
+      <div id="imgtext"></div>
+    </div>
+  </div>
+
+
+
+</body>
+
+</html>
